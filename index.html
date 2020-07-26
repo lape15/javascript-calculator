@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="screen">
+        <div class="previous" data-operand-previous></div>
+        <div class="current" data-operand-current></div>
+      </section>
+
+      <section class="calc-btn_row">
+        <div class="calc_btn_row">
+          <button class="calc_btn double" data-all-clear>C</button>
+          <button class="calc_btn" data-delete>←</button>
+          <button class="calc_btn" data-operation>÷</button>
+        </div>
+        <div class="calc_btn_row">
+          <button class="calc_btn" data-number>7</button>
+          <button class="calc_btn" data-number>8</button>
+          <button class="calc_btn" data-number>9</button>
+          <button class="calc_btn" data-operation>×</button>
+        </div>
+        <div class="calc_btn_row">
+          <button class="calc_btn" data-number>4</button>
+          <button class="calc_btn" data-number>5</button>
+          <button class="calc_btn" data-number>6</button>
+          <button class="calc_btn" data-operation>-</button>
+        </div>
+        <div class="calc_btn_row">
+          <button class="calc_btn" data-number>1</button>
+          <button class="calc_btn" data-number>2</button>
+          <button class="calc_btn" data-number>3</button>
+
+          <button class="calc_btn" data-operation>+</button>
+        </div>
+        <div class="calc_btn_row">
+          <button class="calc_btn" data-number>.</button>
+          <button class="calc_btn double" data-number>0</button>
+          <button class="calc_btn" data-equals>=</button>
+        </div>
+      </section>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
